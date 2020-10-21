@@ -6,16 +6,14 @@
     align-items: center;
 }
 
-
-
 .introbox{
     text-align: center;
     font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: -10%;
 }
 
 .supertitle{
     font-size: 1rem;
-    font-weight: 200;
     color: #fff;
 }
 
