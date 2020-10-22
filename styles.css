@@ -1,3 +1,16 @@
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p   {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Introduction */
 .introduction {
     background-color: #07074f;
     height: 100vh;
@@ -34,10 +47,11 @@
     position: absolute;
 }
 
-.content {
+/*Presenters*/
+.presenters {
     width: 100%;
     background-color: whitesmoke;
-    padding: 2vh 0vh 2vh 0vh;
+    padding: 5vh 0vh 5vh 0vh;
 }
 
 .card {
@@ -49,14 +63,6 @@
       0.3s box-shadow,
       0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
     cursor: pointer;
-  }
-
-  .card h2 {
-      font-family: 'IBM Plex Sans', sans-serif;
-  }
-
-  .card p {
-      font-family: 'Poppins', sans-serif;
   }
   
   .card:hover {
@@ -70,7 +76,7 @@
       margin-left: 25%;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1440px) {
     .person {
         width: 70%;
         padding: 5%;
@@ -81,9 +87,57 @@
   
 
   .two {
-    margin-top: 4vh;
+    margin-top: 5vh;
 }
 
   .profilepicture {
       height: 75px;
   }
+
+  /*Podcast description*/
+  .podcastdescription {
+    background-color: #07074f;
+    text-align: center;
+}
+
+.descriptiontext {
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    padding: 2%;
+}
+
+@media only screen and (max-width: 1440px) {
+    .descriptiontext {
+        width: 70%;
+        padding: 5%;
+        margin-left: 10%;
+
+    }
+  } 
+
+ /*Podcast spotify embed*/
+ .spotifyembed {
+     background-color: whitesmoke;
+     padding: 2%;
+     text-align: center;
+ }
+
+/*Contactform*/
+.contact {
+    text-align: center;
+    background-color: #07074f;
+    color: white;
+    padding: 2%;
+}
+
+.form {
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+}
+
+/*Footer*/
+.footer {
+    height: 20vh;
+    background-color: #2c074f;
+}
